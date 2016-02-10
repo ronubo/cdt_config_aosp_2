@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.1108578688">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.1108578688" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cross.base.1108578688" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.1108578688.1694636289" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.1882623883" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1755473951" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1436126069" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1982744342" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder command="dontmake" id="cdt.managedbuild.builder.gnu.cross.1386290571" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH" kind="outputPath" name="out/target/product/generic_x86/symbols"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1582857292" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="gnu.c.compiler.option.include.paths.926874460" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/bionic/libc/arch-x86/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/kernel/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/kernel/uapi/asm-x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libm/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/bionic/libm/include/i387}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2070071465" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.78969498" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.include.paths.1948228728" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/bionic/libc/arch-x86/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/kernel/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/kernel/uapi/asm-x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libm/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/bionic/libm/include/i387}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1524757634" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.964456589" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1412741591" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1628224593" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1641621575" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.253808006" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.178921122" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/bionic/libc/arch-x86/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/kernel/uapi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libc/kernel/uapi/asm-x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/ bionic/libm/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/aosp_native_new/bionic/libm/include/i387}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1518194740" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding=".git|**/.git/**|.repo/|.settings/|developers/|development/|docs/|ndk/|out/|prebuilts/|sdk/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="aosp_native_new.null.986130715" name="aosp_native_new"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1108578688;cdt.managedbuild.toolchain.gnu.cross.base.1108578688.1694636289;cdt.managedbuild.tool.gnu.cross.c.compiler.1582857292;cdt.managedbuild.tool.gnu.c.compiler.input.2070071465">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.1108578688;cdt.managedbuild.toolchain.gnu.cross.base.1108578688.1694636289;cdt.managedbuild.tool.gnu.cross.cpp.compiler.78969498;cdt.managedbuild.tool.gnu.cpp.compiler.input.1524757634">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/aosp_native_new"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
